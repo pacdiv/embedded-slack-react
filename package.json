@@ -1,0 +1,49 @@
+{
+  "name": "embedded-slack-react",
+  "version": "0.0.2",
+  "description": "Embedded Slack React is a built-in browser chat using React",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Loïc JEAN-LAMBERT",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pacdiv/embedded-slack-react.git"
+  },
+  "keywords": [
+    "embedded",
+    "slack",
+    "client",
+    "react"
+  ],
+  "bugs": {
+    "url": "https://github.com/pacdiv/embedded-slack-react/issues"
+  },
+  "homepage": "https://github.com/pacdiv/embedded-slack-react",
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-2"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "css-loader": "^0.26.1",
+    "jest": "^19.0.2",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^6.0.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "babel-preset-stage-2": "^6.22.0",
+    "embedded-slack": "0.0.2",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
